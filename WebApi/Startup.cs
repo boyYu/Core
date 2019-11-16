@@ -62,6 +62,23 @@ namespace WebApi
                 //    Type = SecuritySchemeType.ApiKey
                 //});
             });
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("cm", new OpenApiInfo
+                {
+                    Title = Configuration.GetSection("Swagger:Title").Value,
+                    Version = Configuration.GetSection("Swagger:Version").Value,
+                    Description = Configuration.GetSection("Swagger:Description").Value
+                });
+                DirectoryInfo d = new DirectoryInfo(AppContext.BaseDirectory);
+                FileInfo[] files = d.GetFiles("*.xml");
+                foreach (var item in files)
+                {
+                    options.IncludeXmlComments(item.FullName);
+                }
+                options.IgnoreObsoleteActions();// 过滤controller 忽略 对应特性[ApiExplorerSettings(IgnoreApi = true)]
+            });
             #endregion
 
         }

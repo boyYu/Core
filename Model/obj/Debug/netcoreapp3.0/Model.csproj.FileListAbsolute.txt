@@ -9,3 +9,14 @@ E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.dll
 E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.pdb
 E:\Project\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Service.Utility.dll
 E:\Project\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Service.Utility.pdb
+F:\文件备份\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Model.deps.json
+F:\文件备份\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Model.dll
+F:\文件备份\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Model.pdb
+F:\文件备份\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Service.Utility.dll
+F:\文件备份\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Service.Utility.pdb
+F:\文件备份\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.csprojAssemblyReference.cache
+F:\文件备份\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.AssemblyInfoInputs.cache
+F:\文件备份\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.AssemblyInfo.cs
+F:\文件备份\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.csproj.CopyComplete
+F:\文件备份\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.dll
+F:\文件备份\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.pdb

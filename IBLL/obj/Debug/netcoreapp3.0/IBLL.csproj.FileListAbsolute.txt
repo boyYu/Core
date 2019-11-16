@@ -11,3 +11,16 @@ E:\Project\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.dll
 E:\Project\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.pdb
 E:\Project\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\Service.Utility.dll
 E:\Project\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\Service.Utility.pdb
+F:\文件备份\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\IBLL.deps.json
+F:\文件备份\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\IBLL.dll
+F:\文件备份\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\IBLL.pdb
+F:\文件备份\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\Model.dll
+F:\文件备份\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\Service.Utility.dll
+F:\文件备份\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\Model.pdb
+F:\文件备份\Demo\Core3.0\IBLL\bin\Debug\netcoreapp3.0\Service.Utility.pdb
+F:\文件备份\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.csprojAssemblyReference.cache
+F:\文件备份\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.AssemblyInfoInputs.cache
+F:\文件备份\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.AssemblyInfo.cs
+F:\文件备份\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.csproj.CopyComplete
+F:\文件备份\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.dll
+F:\文件备份\Demo\Core3.0\IBLL\obj\Debug\netcoreapp3.0\IBLL.pdb

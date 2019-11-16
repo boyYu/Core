@@ -5,3 +5,11 @@ E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.Assembly
 E:\Project\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.Utility.pdb
 E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.dll
 E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.pdb
+F:\文件备份\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.Utility.deps.json
+F:\文件备份\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.Utility.dll
+F:\文件备份\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.Utility.pdb
+F:\文件备份\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.csprojAssemblyReference.cache
+F:\文件备份\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.AssemblyInfoInputs.cache
+F:\文件备份\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.AssemblyInfo.cs
+F:\文件备份\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.dll
+F:\文件备份\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.pdb

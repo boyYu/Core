@@ -26,7 +26,7 @@
             This method gets called by the runtime. Use this method to add services to the container.
             此方法由运行时调用。使用此方法向容器添加服务。
             </summary>
-            <param name="services"></param>
+            <param name="services">指定服务描述符集合的契约。</param>
         </member>
         <member name="M:WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
             <summary>
