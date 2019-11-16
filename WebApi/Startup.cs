@@ -9,6 +9,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.PlatformAbstractions;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using Swashbuckle.AspNetCore.SwaggerUI;
+using WebApi.Utility.Swagger;
 
 namespace WebApi
 {
@@ -26,6 +28,7 @@ namespace WebApi
         /// 此方法由运行时调用。使用此方法向容器添加服务。
         /// </summary>
         /// <param name="services">指定服务描述符集合的契约。</param>
+        [Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -35,12 +38,23 @@ namespace WebApi
             #region Swagger
             services.AddSwaggerGen(options =>
             {
-                // v1 分组，对应特性[ApiExplorerSettings(GroupName = "v1")]
-                options.SwaggerDoc("v1", new OpenApiInfo
+                options.SwaggerDoc("bus", new OpenApiInfo
                 {
-                    Title = Configuration.GetSection("Swagger:Title").Value,
-                    Version = Configuration.GetSection("Swagger:Version").Value,
-                    Description = Configuration.GetSection("Swagger:Description").Value
+                    Title = "BUS",
+                    Version = "V1",
+                    Description = "这里是应用接口"
+                });
+                options.SwaggerDoc("org", new OpenApiInfo
+                {
+                    Title = "ORG",
+                    Version = "V1",
+                    Description = "这里是组织接口"
+                });
+                options.SwaggerDoc("sys", new OpenApiInfo
+                {
+                    Title = "SYS",
+                    Version = "V1",
+                    Description = "这里是系统接口"
                 });
                 // 包括XML注释中的描述
                 DirectoryInfo d = new DirectoryInfo(AppContext.BaseDirectory);
@@ -48,11 +62,10 @@ namespace WebApi
                 foreach (var item in files)
                 {
                     options.IncludeXmlComments(item.FullName);
-                }
-                options.IgnoreObsoleteActions();// 忽略 对应特性[ApiExplorerSettings(IgnoreApi = true)]
-
+                };
+                //options.IgnoreObsoleteActions();// swagger自带的特性过滤 对应特性[ApiExplorerSettings(IgnoreApi = true)]
+                //options.DocumentFilter<IgnoreSysFilter>();
                 //options.OperationFilter<SwaggerHeader>();// 生成器和过滤器，扩展UserHeader
-
                 //给api添加token令牌证书
                 //options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
                 //{
@@ -62,25 +75,7 @@ namespace WebApi
                 //    Type = SecuritySchemeType.ApiKey
                 //});
             });
-
-            services.AddSwaggerGen(options =>
-            {
-                options.SwaggerDoc("cm", new OpenApiInfo
-                {
-                    Title = Configuration.GetSection("Swagger:Title").Value,
-                    Version = Configuration.GetSection("Swagger:Version").Value,
-                    Description = Configuration.GetSection("Swagger:Description").Value
-                });
-                DirectoryInfo d = new DirectoryInfo(AppContext.BaseDirectory);
-                FileInfo[] files = d.GetFiles("*.xml");
-                foreach (var item in files)
-                {
-                    options.IncludeXmlComments(item.FullName);
-                }
-                options.IgnoreObsoleteActions();// 过滤controller 忽略 对应特性[ApiExplorerSettings(IgnoreApi = true)]
-            });
             #endregion
-
         }
 
         /// <summary>
@@ -113,11 +108,13 @@ namespace WebApi
             //启用中间件服务对swagger-ui，指定Swagger JSON终结点
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-                c.SwaggerEndpoint("/swagger/v2/swagger.json", "My API V1");// 列出多个Swagger文档
+                c.SwaggerEndpoint("/swagger/bus/swagger.json", "bus");
+                c.SwaggerEndpoint("/swagger/org/swagger.json", "org");
+                c.SwaggerEndpoint("/swagger/sys/swagger.json", "sys");
                 c.RoutePrefix = string.Empty;// 在跟目录提供Swagger UI
                 c.DocumentTitle = ""; // 文档标题
-                c.InjectStylesheet("/swagger-ui/custom.css");// 注入自定义css
+                //c.InjectStylesheet("/swagger-ui/custom.css");// 注入自定义css
+                c.DocExpansion(DocExpansion.None);// 默认收缩接口方法
             });
             #endregion
         }

@@ -4,6 +4,60 @@
         <name>WebApi</name>
     </assembly>
     <members>
+        <member name="M:WebApi.Controllers.BaseController.#ctor(Microsoft.Extensions.Logging.ILogger{WebApi.Controllers.WeatherForecastController})">
+            <summary>
+            注入日志
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:WebApi.Controllers.BusOne.Get">
+            <summary>
+            get接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.BusOne.GetTwo">
+            <summary>
+            这是自己添加的
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.BusTwo.Get">
+            <summary>
+            get接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.BusTwo.GetTwo">
+            <summary>
+            这是自己添加的
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.OrgOne.Get">
+            <summary>
+            get接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.OrgOne.GetTwo">
+            <summary>
+            这是自己添加的
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.SysOne.Get">
+            <summary>
+            get接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.SysOne.GetTwo">
+            <summary>
+            这是自己添加的
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:WebApi.Controllers.WeatherForecastController">
             <summary>
             WeatherForecast系统接口
@@ -40,6 +94,23 @@
             <summary>
             swagger 添加头信息
             </summary>
+        </member>
+        <member name="T:WebApi.Utility.Swagger.IgnoreSysAttribute">
+            <summary> 
+            隐藏接口，不生成到swagger文档展示 
+            </summary> 
+        </member>
+        <member name="T:WebApi.Utility.Swagger.IgnoreSysFilter">
+            <summary>
+            隐藏sys的接口
+            </summary>
+        </member>
+        <member name="M:WebApi.Utility.Swagger.IgnoreSysFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <summary>
+            实现Apply方法
+            </summary>
+            <param name="swaggerDoc"></param>
+            <param name="context"></param>
         </member>
         <member name="T:WebApi.WeatherForecast">
             <summary>

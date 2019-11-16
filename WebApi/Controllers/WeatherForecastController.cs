@@ -29,7 +29,7 @@ namespace WebApi.Controllers
         /// <param name="logger"></param>
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
-            _logger = logger;
+            this._logger = logger;
         }
 
         /// <summary>

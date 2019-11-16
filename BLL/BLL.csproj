@@ -8,4 +8,9 @@
     <ProjectReference Include="..\IBLL\IBLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="SYS\" />
+    <Folder Include="BUS\" />
+  </ItemGroup>
+
 </Project>

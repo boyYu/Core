@@ -24,7 +24,7 @@ namespace Model.DAO
         /// <summary>
         /// 添加时间
         /// </summary>
-        public DateTime AddTime { get; set; }
+        public DateTime? AddTime { get; set; }
 
         /// <summary>
         /// 最后更新人ID
@@ -40,7 +40,7 @@ namespace Model.DAO
         /// <summary>
         /// 删除标志 true-1:未删除  false-0:已删除
         /// </summary>
-        public bool Mark { get; set; }
+        public bool? Mark { get; set; }
 
         /// <summary>
         /// 有效/启用标志 true-1:有效  false:无效
