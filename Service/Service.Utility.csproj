@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Service.Utility</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Tool\" />
+    <Folder Include="Application\" />
+    <Folder Include="MiddleWare\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

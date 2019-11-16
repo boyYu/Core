@@ -1,0 +1,11 @@
+E:\Project\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Model.deps.json
+E:\Project\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Model.dll
+E:\Project\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Model.pdb
+E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.csprojAssemblyReference.cache
+E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.AssemblyInfoInputs.cache
+E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.AssemblyInfo.cs
+E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.csproj.CopyComplete
+E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.dll
+E:\Project\Demo\Core3.0\Model\obj\Debug\netcoreapp3.0\Model.pdb
+E:\Project\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Service.Utility.dll
+E:\Project\Demo\Core3.0\Model\bin\Debug\netcoreapp3.0\Service.Utility.pdb

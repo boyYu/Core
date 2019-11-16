@@ -1,0 +1,8 @@
+E:\Project\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.deps.json
+E:\Project\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.dll
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.csprojAssemblyReference.cache
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfoInputs.cache
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfo.cs
+E:\Project\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.pdb
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.dll
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.pdb

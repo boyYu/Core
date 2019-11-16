@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.Controllers.WeatherForecastController">
+            <summary>
+            WeatherForecast系统接口
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{WebApi.Controllers.WeatherForecastController})">
+            <summary>
+            注入日志
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:WebApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            get接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            此方法由运行时调用。使用此方法向容器添加服务。
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+             This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+             此方法由运行时调用。使用此方法配置HTTP请求管道。
+            </summary>
+            <param name="app">应用程序的组装者</param>
+            <param name="env"></param>
+        </member>
+        <member name="T:WebApi.Utility.Swagger.HeaderOperation">
+            <summary>
+            swagger 添加头信息
+            </summary>
+        </member>
+        <member name="T:WebApi.WeatherForecast">
+            <summary>
+            系统
+            </summary>
+        </member>
+        <member name="P:WebApi.WeatherForecast.Date">
+            <summary>
+            时间
+            </summary>
+        </member>
+    </members>
+</doc>

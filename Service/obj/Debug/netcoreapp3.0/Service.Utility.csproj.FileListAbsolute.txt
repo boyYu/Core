@@ -1,0 +1,7 @@
+E:\Project\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.Utility.deps.json
+E:\Project\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.Utility.dll
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.AssemblyInfoInputs.cache
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.AssemblyInfo.cs
+E:\Project\Demo\Core3.0\Service\bin\Debug\netcoreapp3.0\Service.Utility.pdb
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.dll
+E:\Project\Demo\Core3.0\Service\obj\Debug\netcoreapp3.0\Service.Utility.pdb

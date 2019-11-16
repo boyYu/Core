@@ -1,0 +1,15 @@
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\BLL.deps.json
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\BLL.dll
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\BLL.pdb
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\IBLL.dll
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\Model.dll
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\IBLL.pdb
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\Model.pdb
+E:\Project\Demo\Core3.0\BLL\obj\Debug\netcoreapp3.0\BLL.csprojAssemblyReference.cache
+E:\Project\Demo\Core3.0\BLL\obj\Debug\netcoreapp3.0\BLL.AssemblyInfoInputs.cache
+E:\Project\Demo\Core3.0\BLL\obj\Debug\netcoreapp3.0\BLL.AssemblyInfo.cs
+E:\Project\Demo\Core3.0\BLL\obj\Debug\netcoreapp3.0\BLL.csproj.CopyComplete
+E:\Project\Demo\Core3.0\BLL\obj\Debug\netcoreapp3.0\BLL.dll
+E:\Project\Demo\Core3.0\BLL\obj\Debug\netcoreapp3.0\BLL.pdb
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\Service.Utility.dll
+E:\Project\Demo\Core3.0\BLL\bin\Debug\netcoreapp3.0\Service.Utility.pdb
